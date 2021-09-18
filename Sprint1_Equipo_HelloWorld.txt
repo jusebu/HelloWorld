@@ -6,6 +6,6 @@ PRESENTACIÓN GRUPO HelloWorld
 INTEGRANTES:
 
 Juan Sebastián Bustamante - CC. 9868585
-Soy Ingeniero Industrial de la Universidad Tecnológica de Pereira, vivo en la Pereira y trabajo con la secretaría de educación de Armenia. Hago el rol de Product owner.
+Soy Ingeniero Industrial de la Universidad Tecnológica de Pereira, vivo en la Pereira y trabajo con la secretaría de educación de Armenia. Hago el rol de Product owner en el sprint 1.
 
 
