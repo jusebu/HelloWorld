@@ -13,3 +13,6 @@ Diseñadora de Moda, estudiante de Ingeniería Catastral y Geodesia en la Univer
 
 Felipe Lopez Ramirez - CC 1038406003
 Soy tecnologo Agricola del SENA, Vivo en Rionegro Antioquia, trabajo como independiente y hago el rol de desarrollador en el sprint 1.
+
+Santiago José Cadena Ortíz - CC. 1000935665
+Estudiante de estudios literarios, residente de Soacha, Cundinamarca. Actualmente soy desempleado y acabo de cursar mi quinto semestre de carrera. Durante el Sprint 1 me desempeño como scrum master.
