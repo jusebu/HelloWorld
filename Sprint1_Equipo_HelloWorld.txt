@@ -10,3 +10,6 @@ Soy Ingeniero Industrial de la Universidad Tecnológica de Pereira, vivo en la P
 
 Laura Camila Cortés Suárez - CC. 1014281891
 Diseñadora de Moda, estudiante de Ingeniería Catastral y Geodesia en la Universidad Distrital, actualmente vivo en Bogotá y estoy desempeñando el rol de Analista en el sprint 1.
+
+Felipe Lopez Ramirez - CC 1038406003
+Soy tecnologo Agricola del SENA, Vivo en Rionegro Antioquia, trabajo como independiente y hago el rol de desarrollador en el sprint 1.
