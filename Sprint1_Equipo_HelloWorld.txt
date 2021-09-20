@@ -19,3 +19,7 @@ Estudiante de estudios literarios, residente de Soacha, Cundinamarca. Actualment
 
 Tatiana Salamanca - CC. 1020794062
 Bioingeniera de la universidad El bosque vivo en la ciudad de Pasto y soy de boyacá, trabajo como independiente y desempeño el rol de administrador de bases de datos.
+
+
+DESCRIPCIÓN DEL PROCESO
+Para cumplir con la creación del repositorio del equipo y la asignación de roles comenzamos por reunirnos en sesiones cortas todas las noches de la primera semana (del 13 al 17 de septiembre) haciendo uso de herramientas como Zoom, Whatsapp y Trello para coordinar los encuentros y mantener una comunicación constante basada en la metodología scrum (con José Cadena como Scrum master). Primero nos adentramos en el manejo de Git y GitHub con el fin de aprender el funcionamiento de dichas herramientas; una vez aprendidas las bases, y después de una tutoría (el jueves 16), Juan Bustamante (el Product owner) se encargó de la creación del repositorio en GitHub, Laura Cortés comenzó la redacción del documento con la redacción del documento con la información del equipo y entre todos probamos el correcto funcionamiento de las copias locales del repositorio, logrando hacer modificaciones a dicho documento desde versiones locales del repositorio.
