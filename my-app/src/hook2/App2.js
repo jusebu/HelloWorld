@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useTable, useGlobalFilter, useAsyncDebounce } from "react-table";
-import useRowsUsuarios from "./hook3/useRowsUsuarios";
-import useColumnsUsuarios from "./hook3/useColumnsUsuarios";
+import useRowsProductos from "./hook2/useRowsProductos";
+import useColumnsProductos from "./hook2/useColumnsProductos";
 
 
 import "./styles.css";
 
-function UsuarioFilter({ preGlobalFilteredRows, globalFilter, setGlobalFilter }) {
-  const totalSalesAvailable = preGlobalFilteredRows.length;
+
+function ProductFilter({ preGlobalFilteredRows, globalFilter, setGlobalFilter }) {
+  const totalProductAvailable = preGlobalFilteredRows.length;
   const [value, setValue] = useState(globalFilter);
 
   const onFilterChange = useAsyncDebounce(
@@ -21,8 +22,8 @@ function UsuarioFilter({ preGlobalFilteredRows, globalFilter, setGlobalFilter })
   };
 
   return (
-    <span className="sales-filter">
-     USUARIO &nbsp;{" "}
+    <span className="product-filter">
+     NUEVO PRODUCTO &nbsp;{" "}
       <input
         size={40}
         value={value || ""}
@@ -34,11 +35,9 @@ function UsuarioFilter({ preGlobalFilteredRows, globalFilter, setGlobalFilter })
 }
 
 
-
-
 export default function App() {
-  const columns = useColumnsUsuarios();
-  const data = useRowsUsuarios();
+  const columns = useColumnsProductos();
+  const data = useRowsProductos();
   const table = useTable({ columns, data }, useGlobalFilter);
 
   const {
@@ -58,7 +57,7 @@ export default function App() {
         <thead>
           <tr>
             <th colSpan={4}>
-              <UsuarioFilter
+              <ProductFilter
                 preGlobalFilteredRows={preGlobalFilteredRows}
                 globalFilter={globalFilter}
                 setGlobalFilter={setGlobalFilter}

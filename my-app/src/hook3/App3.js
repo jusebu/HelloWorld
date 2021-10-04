@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useTable, useGlobalFilter, useAsyncDebounce } from "react-table";
 import useRowsUsuarios from "./hook3/useRowsUsuarios";
-import useColumnsUsuarios from "./hook3/useColumnsUsuarios";
+import useColumnsUsuarios from "./hooks/useColumnsUsuarios";
 
 
 import "./styles.css";
 
-function UsuarioFilter({ preGlobalFilteredRows, globalFilter, setGlobalFilter }) {
+function Filter({ preGlobalFilteredRows, globalFilter, setGlobalFilter }) {
   const totalSalesAvailable = preGlobalFilteredRows.length;
   const [value, setValue] = useState(globalFilter);
 
@@ -58,7 +58,7 @@ export default function App() {
         <thead>
           <tr>
             <th colSpan={4}>
-              <UsuarioFilter
+              <SalesFilter
                 preGlobalFilteredRows={preGlobalFilteredRows}
                 globalFilter={globalFilter}
                 setGlobalFilter={setGlobalFilter}
