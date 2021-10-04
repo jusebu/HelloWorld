@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: "Calibri";
+    justify-content: center;
+    padding: 2rem 5rem;
+  }
+  
+  table {
+    border-spacing: 0;
+    border: 1px solid #d1cccc;
+  }
+  
+  tr:last-child td {
+    border-bottom: 0;
+  }
+  
+  th,
+  td {
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #d1cccc;
+    border-right: 1px solid #d1cccc;
+  }
+  
+  th:last-child,
+  td:last-child {
+    border-right: 0;
+  }
+  
+  tr:nth-child(odd) {
+    background: #f3f3f3;
+    color: #000000;
+  }
+  
+  tr:nth-child(even) {
+    background: #ffffff;
+    color: #000000;
+  }
+  
+  input {
+    border: 1px solid #d1cccc;
+    border-radius: 0.2rem;
+    height: 1.5rem;
+  }
+  
+  .sales-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
