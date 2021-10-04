@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTable, useGlobalFilter, useAsyncDebounce } from "react-table";
-import useRowsUsuarios from "./hook3/useRowsUsuarios";
-import useColumnsUsuarios from "./hook3/useColumnsUsuarios";
+import useRowsUsuarios from "./hooks/useRowsVentas";
+import useColumnsUsuarios from "./hooks/useColumnsVentas";
 
 
 import "./styles.css";
