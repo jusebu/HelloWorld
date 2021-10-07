@@ -1,0 +1,33 @@
+h2{
+    font-family: Helvetica;font-size: 26px;color: #4F4F4F;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+      
+    position: absolute;
+    width: 325px;
+    height: 28px;
+    left: 41px;
+    top: 44px;
+}
+.usuario {
+    font-family: Helvetica;
+    position: absolute;
+  left: 5.9%;
+  right: 63.66%;
+  top: 19.56%;
+  bottom: 73.03%;
+  font-size: 18px;
+  line-height: 30px;
+  width: fit-content;
+  
+  color: #4F4F4F;
+  }
+
+.botones{
+  position: absolute;
+  width: fit-content;
+  height: 41px;
+  left: 200px;
+  top: 560px;
+}
